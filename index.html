@@ -2,112 +2,88 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <meta name="robots" content="noindex">
-    <title>Pawel's Personal Site</title>
+    <title>Paweł Bochacik</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link rel="icon" href="favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+        rel="stylesheet" />
 </head>
 
 <body>
-    <table cellspacing="20">
-        <tr>
-            <td><img src="images/profile-circle2.png" alt="pawel profile picture"></td>
-            <td>
-                <h1>Paweł Bochacik</h1>
-                <p><em>C++ and web technology <strong>Developer</strong>.</em></p>
-                <p>I graduated from the Cracow University of Technology (<a href="https://www.pk.edu.pl/">Politechnika
-                        Krakowska</a>).
-                    I am a structural designer by profession.<br>
-                    I am a member of <a href="https://www.piib.org.pl/">the Polish Chamber of Civil Engineers</a>.
-                    I mainly design reinforced concrete structures such as multi-storey residential buildings, retaining
-                    walls,
-                    viaducts, bridges and the like.<br>
-                    My interests are in the IT industry. Currently I am re-branding myself as a software developer.
-                    I am developing skills in C++ programming as well as HTML, CSS and JavaScript.</p>
-            </td>
-        </tr>
-    </table>
-    <hr>
+    <div class="top-container">
+        <img class="top-cloud" src="images/cloud.png" alt="cloud-img" />
+        <h1><em>I'm Paweł.</em></h1>
+        <h2>a <span class="pro">pro</span>grammer.</h2>
+        <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img" />
+        <img src="images/mountain.png" alt="mountain-img" />
+    </div>
 
-    <h3>Books and completed courses</h3>
-    <ul>
-        <li>C. Martin. <a href="https://drive.google.com/file/d/1tbh8E5WZDZANpn2cUhPoIKURiNjDNxl9/view?usp=sharing">
-                Clean Code: A Handbook of Agile Software Craftsmanship.</a> Pearson Education, Inc. 2009.</li>
-        <li>Weisfeld. <a href="https://drive.google.com/file/d/1tHWUxTf4hgWZQBlx0_1iTkJzZuaDS1rl/view?usp=sharing">The
-                Object-Oriented Thought Process (5th Edition).</a> Pearson Education, Inc. 2009.</li>
-        <li>Jerzy Grębosz. <a
-                href="https://drive.google.com/file/d/1r7eAZBddKSOmVG-EIE3Sxa1QcYpudp2i/view?usp=sharing">Symfonia C++.
-                Tom I, II.</a> Oficyna Kallimach. Kraków 1999.</li>
-        <li>An on-line course entitled <a href="https://przyszlyprogramista.pl/">Elitarny Projekt. PRZYSZŁY
-                PROGRAMISTA.</a> by Artur Nowakowski.</li>
-        <li>An on-line course entitled <a href="https://www.udemy.com/course/git-od-podstaw-dla-kazdego/">GIT od podstaw
-                dla każdego.</a> by Adrian Szuszkiewicz.</li>
-        <li>An on-line course entitled <a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/">The
-                Complete 2023 Web Development Bootcamp.</a> by Angela Yu.</li>
-    </ul>
-    <hr>
+    <div class="middle-container">
+        <div class="profile">
+            <img class="profile-img" src="images/profile-circle.png" alt="profile-img" />
+            <h2>Hello.</h2>
+            <p>
+                I am passionate about programming in the IT industry. <br>I am developing skills in C++, HTML, CSS and
+                JavaScript programming as a software developer.
+            </p>
+        </div>
+        <hr />
+        <div class="skills">
+            <h2>My Skills.</h2>
+            <div class="skill-row">
+                <img class="screen-img" src="images/screen-code2.png" alt="screenCode-img" />
+                <h3>Design & Development</h3>
+                <p>I have completed the following programming courses:
+                <ul class="course-listing">
+                    <li class="course-listing-item">An on-line course entitled <a
+                            href="https://przyszlyprogramista.pl/">Elitarny Projekt. PRZYSZŁY
+                            PROGRAMISTA</a> by Artur Nowakowski.</li>
+                    <li class="course-listing-item">An on-line course entitled <a
+                            href="https://www.udemy.com/course/git-od-podstaw-dla-kazdego/">GIT od podstaw
+                            dla każdego</a> by Adrian Szuszkiewicz.</li>
+                    <li class="course-listing-item">An on-line course entitled <a
+                            href="https://www.udemy.com/course/the-complete-web-development-bootcamp/">The
+                            Complete 2023 Web Development Bootcamp</a> by Angela Yu.</li>
+                </ul>
+                </p>
+            </div>
+            <div class="skill-row">
+                <img class="cad-img" src="images/cad-design2.png" alt="CADdesign-img" />
+                <h3>CAD design of building structures</h3>
+                <p>
+                    I am a structural designer by profession. I have a wealth of experience in CAD design. <br> I mainly
+                    design reinforced concrete structures such as multi-storey residential buildings, retaining walls,
+                    viaducts, bridges and the like.
+                </p>
+            </div>
+            <div class="skill-row">
+                <img class="keyboard-img" src="images/keyboard2.png" alt="keyboard-img" />
+                <h3>Master of the keyboard</h3>
+                <p>I have the valuable skill of fast and sightless typing, which is very helpful in the work of a
+                    programmer.</p>
+            </div>
+        </div>
+        <hr />
+        <div class="contact-me">
+            <h2>Get In Touch</h2>
+            <h3>If you want to get to know me better or exchange your experience.</h3>
+            <p class="invite-to-contact">
+                Are you passionate about programming like me?<br>Let's talk about programming or our other passions.
+            </p>
+            <a class="btn" href="mailto:pawel.bochacik.programista@email.com">CONTACT ME</a>
+        </div>
+    </div>
 
-    <h3>Work Experience</h3>
-    <table cellspacing="10">
-        <thead>
-            <tr>
-                <th>Dates</th>
-                <th>Work</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>2018-currently</td>
-                <td>Structure Designer at Rejprojekt Sp. z o.o. in Kraków.</td>
-            </tr>
-            <tr>
-                <td>2018</td>
-                <td>Building Structure Designer at Kopuła Sp. z o.o. in Kraków.</td>
-            </tr>
-            <tr>
-                <td>2015-2018</td>
-                <td>Building Structure Designer at Marzec-Budownictwo Sp. z o.o. in Kraków.</td>
-            </tr>
-            <tr>
-                <td>2010-2015</td>
-                <td>Assistant Designer of Building Structures at Pracownia Projektowa Budowlano-Konstrukcyjna s.c. in
-                    Kraków.</td>
-            </tr>
-        </tbody>
-        <tfoot>
-        </tfoot>
-    </table>
-    <hr>
-
-    <h3>Hobbies</h3>
-    <ol>
-        <li>Swimming and jogging.</li>
-        <li>Reading adventure and history books.</li>
-        <li>Travelling to interesting places in country.</li>
-    </ol>
-    <hr>
-
-    <h3>Skills</h3>
-    <table cellspacing="10">
-        <tr>
-            <td>C++</td>
-            <td>⭐⭐⭐</td>
-        </tr>
-        <tr>
-            <td>HTML</td>
-            <td>⭐</td>
-        </tr>
-        <tr>
-            <td>Fast non-visual typing</td>
-            <td>⭐⭐⭐⭐</td>
-        </tr>
-        <tr>
-            <td>AutoCAD</td>
-            <td>⭐⭐⭐⭐⭐</td>
-        </tr>
-    </table>
-    <hr>
-
-    <a href="contact-me.html">Contact Me</a>
+    <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+        <a class="footer-link" href="https://twitter.com/">Twitter</a>
+        <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+        <p class="copyright">© 2023 Paweł Bochacik</p>
+    </div>
 </body>
 
 </html>
